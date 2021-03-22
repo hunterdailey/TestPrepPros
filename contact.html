@@ -30,13 +30,13 @@
           <p>Use this form to allow us to get in touch with you within 1 business day! <br>* = Required Field</p>
           <form class="nestedgrid2" action="https://formspree.io/f/xeqpywgk" method="POST">
             <div class="div1">
-              Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname"><br>
-              Email*<br><input type="email" size="30" required name="email"><br>
-              Phone*<br><input type="tel" size="30" placeholder="(XXX)xxx-xxxx" required name="phone number"><br>
-              Personal Website<br><input type="url" size="30" name="personal website"><br>
+              Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="full name" aria-label="Full Name"><br>
+              Email*<br><input type="email" size="30" required name="email" aria-label="Email"><br>
+              Phone*<br><input type="tel" size="30" placeholder="(XXX)xxx-xxxx" required name="phone number" aria-label="Phone Number"><br>
+              Personal Website<br><input type="url" size="30" name="personal website" aria-label="Personal Website"><br>
             </div>
             <div class="div2">
-              Current High School<br><input type="text" list="school" name="current high school"><br>
+              Current High School<br><input type="text" list="school" name="current high school" aria-label="Current High School"><br>
                 <datalist id="school">
                   <option value="Beaverbrook">
                   <option value="Birchwood">
@@ -45,8 +45,8 @@
                   <option value="Hainesville">
                   <option value="Other">
                 </datalist>
-              Expected date of entry<br><input type="date" name="expected date of entry"><br>
-              Number of days/week desired<br><input type="number" placeholder="2" min="1" max="5" step="1" value="2" name="number of days/week desired"><br>
+              Expected date of entry<br><input type="date" name="expected date of entry" aria-label="Expected Date of Entry"><br>
+              Number of days/week desired<br><input type="number" placeholder="2" min="1" max="5" step="1" value="2" name="number of days/week desired" aria-label="Number of days per week desired"><br>
               <br><input type="submit" value="Help Me Book Boost My Scores!" class="button">
             </div>
           </form>
